@@ -1,0 +1,34 @@
+{
+  "name": "domain-mcp",
+  "version": "1.0.0",
+  "description": "MCP for checking domain name availability",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "domain": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js"
+  },
+  "author": {
+    "name": "Edwin Martin",
+    "email": "edwin@bitstorm.org",
+    "url": "https://bitstorm.org/"
+  },
+  "license": "UNLICENSED",
+  "files": [
+    "build"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
