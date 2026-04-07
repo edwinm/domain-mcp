@@ -1,8 +1,8 @@
 {
   "name": "domain-mcp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "MCP for checking domain name availability",
-  "main": "dist/index.js",
+  "main": "build/index.js",
   "type": "module",
   "bin": {
     "domain": "./build/index.js"
@@ -15,7 +15,7 @@
     "email": "edwin@bitstorm.org",
     "url": "https://bitstorm.org/"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "files": [
     "build"
   ],
