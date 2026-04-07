@@ -1,5 +1,6 @@
 # domain-mcp
-MCP for checking domain name availability
+
+> MCP for checking domain name availability
 
 Add domain check functionality to your AI agent and use it to
 find available domain names for your next website/project.
