@@ -15,6 +15,6 @@ find available domain names for your next website/project.
 }
 ```
 
-Example of use in Claude:
+Example of use in Claude, where it only shows domain names that are available.
 
-![amsterdam-woodworking.png](docs/amsterdam-woodworking.png)
+![amsterdam-woodworking.png](docs/jewelry-shop.png)
